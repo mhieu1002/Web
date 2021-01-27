@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    margin-left: 150px;
+}
+
+.text-setting {
+    list-style: none;
+    border: #A9A9A9 2px solid;
+    width: 255px;
+    height: 262px;
+    padding-left: 0px;
+    margin-left: 5px;
+}
+
+.text {
+    background-color: #A9A9A9;
+    width: 252px;
+    padding: 7px;
+}
+
+.text-link {
+    background-color: white;
+    color: #A9A9A9;
+    width: 250px;
+    padding: 7px;
+    padding-left: 15px;
+    border-bottom: #A9A9A9 2px dotted;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.text-link:hover {
+    color: #B22222;
+}
+
+.text-link_setting:hover {
+    color: #B22222;
+}
+
+.header_img {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.img-setting {
+    height: 262px;
+    width: 900px;
+}
+
+.container {
+    margin-left: 150px;
+}
+
+.container_table {
+    border: #A9A9A9 2px solid;
+    width: 255px;
+    margin-left: 5px;
+}
+
+.table {
+    background-color: #A9A9A9;
+    padding: 7px;
+    width: 253px;
+}
+
+.table-text {
+    margin-left: 5px;
+}
+
+.table-setting {
+    border: #00BFFF 2px solid;
+    background-color: #AFEEEE;
+    margin-top: 7px;
+    margin-left: 5px;
+    width: 240px;
+    height: 22px;
+    margin-bottom: 5px;
+}
+
+.table-setting2 {
+    width: 70px;
+    margin-bottom: 5px;
+}
+
+.table2 {
+    background-color: #B22222;
+    width: 100px;
+    height: 35px;
+    margin-left: 6px;
+    padding-top: 8px;
+    padding-left: 25px;
+    margin-bottom: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.table2:hover {
+    background-color: #F5F5F5;
+    color: #B22222;
+}
+
+.table-text2 {
+    margin-left: 5px;
+    color: #B22222;
+    cursor: pointer;
+}
+
+.table-text2:hover {
+    color: #48D1CC;
+}
+
+.footer_text {
+    margin-top: 5px;
+    width: 1168px;
+    height: 70px;
+    background-color: #f3f3f3;
+    margin-left: 154px;
+}
+
+.footer_setting {
+    color: #808080;
+    list-style: none;
+    display: flex;
+    padding-left: 2px;
+}
+
+.footer_text-setting {
+    margin-top: 25px;
+    margin-left: 15px;
+    position: relative;
+}
+
+.footer_text-setting-item::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid #808080;
+    height: 15px;
+    right: -9px;
+    top: 50%;
+    transform: translateY(-50%);
+}
