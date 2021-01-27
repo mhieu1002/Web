@@ -36,7 +36,8 @@ body {
 
 .navbar_menu-item-strong {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
+    letter-spacing: 1px;
 }
 
 .navbar_menu-link {
@@ -83,17 +84,17 @@ body {
 }
 
 .table_setting1 {
-    width: 250px;
+    width: 350px;
 }
 
 .table_setting2 {
-    width: 250px;
-    height: 100px;
+    width: 350px;
+    height: 180px;
     margin-bottom: 10px;
 }
 
 .table_setting3 {
-    width: 60px;
+    width: 80px;
 }
 
 .footer {
